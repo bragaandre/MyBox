@@ -1,0 +1,119 @@
+@charset "ISO-8859-1"; /* Code for Latin Alphabet*/
+
+body
+{
+    background-color: #cddcec;
+    font-family: "Calibri";
+    font-size: 12px;
+}
+
+div#container
+{
+    width: 600px;
+    margin: 0px auto;
+    border: 0px solid;
+    background-color: #ffffff;
+}
+
+div#container h1
+{
+    background-color: #4b75b3;
+    margin: 0 px;
+    padding: 8px;
+    font-family: "Calibri";
+    font-weight: normal;
+    border: 1px solid #4b75b3;
+}
+#creator
+{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff7c0;
+    font-weight: lighter;
+    font-family: "Calibri";
+}
+
+div#container fieldset
+{
+    margin: 20 px;
+    border: 1 px solid #cddcec;
+}
+
+ul#menu
+{
+    list-style-type: none;
+    margin: 4 px;
+}
+
+ul#menu li
+{
+    float: left;
+    margin: 4 px;
+}
+
+ul#menu li.active
+{
+    background-color: darkgray;
+    border-left: 1 px solid #4b75b3;
+    border-bottom: 1 px solid #cddcec;
+    border-left:  1px solid #4b75b3;
+    border-right: 1px solid #cddcec;
+}
+
+ul#menu li a
+{
+    text-decoration: none; /*Underline, line throguh or overline */
+    font-size: 12 px;
+    padding: 2px;
+    color: darkslategrey;
+}
+ul#files
+{
+    list-style-type: none;
+    margin: 40px 0px 0px 0px; /*Top Right Bottom Left*/
+    padding: 0px;
+}
+ul#files li
+{
+    background-color: aliceblue;
+    border-bottom: 1 solid #efefef;
+    padding: 2 px;
+    margin-bottom: 1px;
+}
+
+ul#files li a
+{
+    text-decoration: none;
+    color: darkorange;
+    padding: 2px 25px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+/*
+ul#files li.Documents a
+{
+
+
+
+}
+
+
+*/
+p.error
+{
+    background-color: #fff7c0;
+    border-bottom: 1px solid #efefef;
+    font-weight: bold;
+    color: #ff0000;
+    padding: 6px;
+}
+
+
+
+
+
+
+
+
+
